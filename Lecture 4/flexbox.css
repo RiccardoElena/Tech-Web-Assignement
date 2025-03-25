@@ -1,0 +1,53 @@
+body{
+  width: 100vw;
+  max-width: 800px;
+  padding: 0;
+  margin:  0 auto;
+  font-family: sans-serif;
+  border: 1px black solid;
+
+  font-size: 1.1rem;
+}
+.hero {
+  background-color: lightgray;
+  padding: 2.5%;
+}
+nav {
+  background-color: lightblue;
+  padding: 1.25%;
+}
+
+nav a {
+  padding: 1.25%;
+  color: #06C
+}
+main .container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: fit-content;
+}
+
+section.main {
+  margin: auto;
+  width: 60%;
+}
+aside {
+  min-width: 200px;
+  margin: 1.25vw auto ;
+  width: 30%;
+}
+
+aside img {
+  width: 100%
+}
+
+footer {
+  background-color: #26263D;
+  color: #FFF;
+  padding: 2.5vw;
+}
+
+footer a {
+  color: #F2CB05;
+}
